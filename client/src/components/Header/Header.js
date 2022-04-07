@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <nav className="navbar container navbar-expand-lg text-light ">
       <Link className="navbar-brand text-light" to="/">
-        Movie Cafe
+        Don Movies
       </Link>
       <button
         className="navbar-toggler bg-light"
@@ -25,6 +25,11 @@ export default function Header() {
       </button>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
+          <li className="nav-item active">
+            <Link className="nav-link text-light" to="/A_D_M_I_N">
+              Admin
+            </Link>
+          </li>
           <li className="nav-item active">
             <Link className="nav-link text-light" to="/filter/series">
               Series-Netflix
